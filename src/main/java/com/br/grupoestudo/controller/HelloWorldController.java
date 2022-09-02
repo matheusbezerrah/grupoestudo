@@ -17,4 +17,9 @@ public class HelloWorldController {
         return "Hello Marcos";
     }
 
+    @GetMapping("arthur")
+    public String sayHelloArthur() {
+        return "Hello Arthur";
+    }
+
 }
